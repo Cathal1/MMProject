@@ -1,0 +1,131 @@
+body
+{
+	margin: 0;
+	background-color: #b3e1ff;
+}
+
+#topwrap
+{
+	margin: 0 auto;
+
+}
+
+#uppernav
+{
+	position: fixed;
+	margin: 0 auto;
+	height: 70px;
+	width: 100%;
+	background-color: #144b69;
+	color: #18b3e7;
+}
+
+#content1
+{
+	padding-top: 20px;
+	background-color: #072F44;
+	width: 100%;
+	height: 570px;
+}
+
+.positioner
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.titles
+{
+	font-family: 'Nova Square', cursive;
+	font-size: 35px;
+	float: left;
+}
+
+#navi
+{
+	float: right;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+}
+
+#navi ul
+{
+	list-style-type: none;
+}
+
+#navi li
+{
+	display: inline;
+	padding-left: 10px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #18b3e7
+}
+
+a:hover
+{
+	color: #ffffff;
+}
+
+#sliderandcontent
+{
+	width: 960px;
+	height: 550px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+
+#slider
+{
+	height: 400px;
+	width: 	600px;
+	float: left;
+	background-color: #18b3e7;
+
+	border-radius: 2px;
+}
+
+#maintext
+{
+	height: 400px;
+	width: 	300px;
+	float: right;
+	background-color: #144b69;
+	border-radius: 2px;
+}
+
+.lessertitles
+{
+	color: #e36867;
+	font-family: 'Nova Square', cursive;
+	text-align: center;
+}
+
+.info
+{
+	font-family: 'Nova Square', cursive;
+	margin-left: 10px;
+	margin-right: 5px;
+	color: #ffffff;
+}
+
+.large
+{
+	font-size: 20px;
+	color: #e36867;
+}
+
+#foottext
+{
+	font-family: 'Nova Square', cursive;
+	color: #1eb4e7;
+	text-align: center;
+}
+
+#foot
+{
+	width: 100%;
+}
