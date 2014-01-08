@@ -2,8 +2,23 @@
 <html>
 	<head>
 		<title>Endeavour</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link href='http://fonts.googleapis.com/css?family=Nova+Square|Pacifico' rel='stylesheet' type='text/css'>
+		<link href="css/theflex.css" rel="stylesheet" type="text/css" />
+		<link  href="css/style.css" rel="stylesheet" type="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=Nova+Square|Pacifico' rel='stylesheet' type='text/css' />
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+		
+
+		<!-- Load the flexslider -->
+		<script type="text/javascript" charset="utf-8">
+  			$(window).load(function() {
+    			$('.flexslider').flexslider({
+          			animation: "fade",  // slide or fade
+          			controlsContainer: ".flex-container" // the container that holds the flexslider
+    			});
+  			});
+		</script>
+
 	</head>
 
 	<body>
@@ -15,7 +30,6 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li><a href="features.html">Features</a></li>
-							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -25,6 +39,17 @@
 			<div id="sliderandcontent">
 
 				<div id="slider">
+
+					<section class="slider">
+        				<div class="flexslider">
+          					<ul class="slides">
+            					<li><img src="media/flexi1.png" /></li>
+  	    						<li><img src="media/flexi2.png" /></li>
+  	    						<li><img src="media/flexi3.png" /></li>
+          					</ul>
+        				</div>
+      				</section>
+
 				</div>
 
 				<div id="maintext">
